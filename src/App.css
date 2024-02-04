@@ -116,4 +116,7 @@ button:hover {
   .demo3 {
     display: none;
   }
+  .demo4 {
+    justify-content: space-evenly;
+  }
 }

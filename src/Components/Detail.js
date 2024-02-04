@@ -34,7 +34,10 @@ const Detail = () => {
 
   return (
     <div className="detail-container">
-      <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+      <div
+        className="demo4"
+        style={{ display: "flex", justifyContent: "space-evenly" }}
+      >
         <div style={{ flex: 1 }}>
           <p style={{ fontWeight: 700 }}> Post number # {post.id}</p>
           <img src={`https://picsum.photos/200?random=${post.id}`} alt="Post" />
